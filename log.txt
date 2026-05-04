@@ -1,0 +1,3 @@
+uvicorn app.main:app --reload
+INFO:     Will watch for changes in these directories: ['/home/data/projects/inspirit/inspirit-360-portal/backend']
+ERROR:    [Errno 98] Address already in use

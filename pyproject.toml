@@ -1,0 +1,22 @@
+[project]
+name = "errex"
+version = "0.1.0"
+description = "TUI error log explainer"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Your Name" }
+]
+dependencies = [
+  "typer>=0.12.0",
+  "textual>=0.62.0",
+  "groq>=0.9.0",
+  "python-dotenv>=1.0.0"
+]
+
+[project.scripts]
+errex = "errex.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
